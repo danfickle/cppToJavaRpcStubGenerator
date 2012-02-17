@@ -41,12 +41,13 @@ The C++ RPC library uses socket communication as well as strong and weak pointer
 
 ## Using ##
 The project contains three java projects (the generator, RPC server library and a sample server) and one C++ project (RPC client library with sample usage).
-1. First build the Java server RPC library and export as a JAR.
-2. Build the Java generator and export as a JAR.
-3. Import these JAR files into the Java sample server, build and run either SampleGeneratorUsage.java or SimpleServer.java
-4. Compile the C++ project using (on Linux) `g++ -I /home/user/boost_1_46_1/ *.cc -lpthread -lboost_system` (with the cpp directory as cwd). 
-5. You can also build the C++ project using Qt. A Qt project file is included.
-6. You can now run the C++ sample project.
+
+ 1. First build the Java server RPC library and export as a JAR.
+ 2. Build the Java generator and export as a JAR.
+ 3. Import these JAR files into the Java sample server, build and run either SampleGeneratorUsage.java or SimpleServer.java
+ 4. Compile the C++ project using (on Linux) `g++ -I /home/user/boost_1_46_1/ *.cc -lpthread -lboost_system` (with the cpp directory as cwd). 
+ 5. You can also build the C++ project using Qt. A Qt project file is included.
+ 6. You can now run the C++ sample project.
 
 ## Types ##
 The following types are supported:
